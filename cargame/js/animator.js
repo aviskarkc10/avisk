@@ -139,7 +139,7 @@ function Animator(car, container, lanes, roadblocks, score, gameController, fuel
 
   	this.checkCollision = function(r, c) {
   		
-  		if(((580>r.y && r.y>430) && c.pos==r.pos) || that.fuelTank<=0)
+  		if(((580>r.y+40 && r.y+40>430) && c.pos==r.pos) || that.fuelTank<=0)
   		{
   			that.game=false;
   			document.onkeydown=checkKeyDown;
