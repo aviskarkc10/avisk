@@ -53,14 +53,14 @@ function  RoadBlocks() {
 		if(j==1) {
 			
 			pos=Math.floor(Math.random()*3);
-			y=(-350)*(i+1);
+			y=(-300)*(i+1);
 			
 		}
 
 		else if (j==2) {
 			if(i==1 || i==2)
 			{
-				y=-700;
+				y=-600;
 				if(i==1)
 				{
 					pos=1;
@@ -72,11 +72,11 @@ function  RoadBlocks() {
 
 			}
 			else if (i==3){
-				y=-1050;
+				y=-900;
 				pos=Math.floor(Math.random()*2)*2;
 			}
 			else{
-				y=-350;
+				y=-300;
 				pos=Math.floor(Math.random()*2)*2;
 				x=pos*120+10;
 			}
